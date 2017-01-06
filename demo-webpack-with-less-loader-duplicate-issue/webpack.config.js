@@ -18,6 +18,6 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('all.css'),
-    new webpack.optimize.DedupePlugin()
+    // new webpack.optimize.DedupePlugin()
   ]
 }
