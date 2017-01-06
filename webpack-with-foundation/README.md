@@ -7,6 +7,7 @@
 # Issues
 
 * [Uglify Issues](https://github.com/joeeames/WebpackFundamentalsCourse/issues/3)
+* [About foundation-sites issues](https://github.com/zurb/foundation-sites/issues/8354)
 
 # References
 
