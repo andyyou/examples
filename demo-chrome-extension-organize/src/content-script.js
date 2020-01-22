@@ -1,0 +1,20 @@
+const iframe = document.createElement('iframe');
+iframe.sandbox = 'allow-scripts allow-same-origin allow-forms';
+iframe.setAttribute('allowFullScreen', '');
+iframe.scrolling = 'no';
+iframe.style.cssText = `
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+  background-color: white;
+  filter: none;
+  display: block;
+  position: fixed;
+  overflow: auto;
+`;
+iframe.src = chrome.runtime.getURL('app.html');
+document.body.appendChild(iframe);
